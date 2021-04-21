@@ -1,3 +1,43 @@
+.Pokemon-game {
+	text-align: center;
+	font-family: monospace;
+	color: blueviolet;
+	text-decoration: underline;
+}
+
 .Pokecard {
-	border: 2px solid mediumseagreen;
+	width: 230px;
+	box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
+	text-align: center;
+	border-radius: 3px;
+	background-color: white;
+	padding: 4px;
+	margin: 0.2rem;
+}
+.Pokecard-title {
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+.Pokecard-data {
+	font-size: 80%;
+	font-size: 10px;
+}
+.Pokecard-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	/* background-color: #eceff1; */
+	border-radius: 3px;
+	margin-bottom: 0.5rem;
+}
+
+.Pokecard img {
+	transition: all ease 500ms;
+}
+
+.Pokecard img:hover {
+	transform: scale(1.25);
+	opacity: 0.7;
 }
